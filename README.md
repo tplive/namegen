@@ -34,3 +34,17 @@ array.
 ### Step four: build and test your addition
 
 Run `./build.sh` and test out your new name generator.
+
+Parameters:
+
+`-n N` where N is the number of names to generate.
+
+`-g male|female|both` Gender of the names to generate.
+
+`-o language` Origin of the names to generate. List with `-l`.
+
+`-s A` Random generator seed. A is an alphanumeric string.
+
+`-m full` Mode of generation.
+
+`-l` Print available name lists.
